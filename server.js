@@ -1,8 +1,6 @@
 import express from "express"; // Importa o framework Express para criar a aplicação web
 import routes from "./src/routes/postsRoutes.js";
 
-
-
 const posts = [
   // ... (dados dos posts)
 ];
@@ -14,5 +12,3 @@ routes(app)
 app.listen(3000, () => {
   console.log("Servidor escutando...");
 }); // Inicia o servidor na porta 3000 e exibe uma mensagem no console
-
-
