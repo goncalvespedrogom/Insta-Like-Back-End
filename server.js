@@ -6,7 +6,7 @@ const posts = [
 ];
 
 const app = express(); // Cria uma instância do Express, iniciando a aplicação
-
+app.use(express.static("uploads"))
 routes(app)
 
 app.listen(3000, () => {
